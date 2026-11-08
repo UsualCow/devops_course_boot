@@ -1,5 +1,9 @@
 def countdown_to_start():
-    pass
+    for i in range(10, 0, -1):
+        if i == 1:
+            print(f"{i}...Fight!")
+            break
+        print(f"{i}...")
 
 
 # Don't edit below this line

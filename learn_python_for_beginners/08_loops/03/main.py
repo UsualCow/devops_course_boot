@@ -1,5 +1,5 @@
 def print_numbers_from_five_to(end):
-    for i in range(0, end):
+    for i in range(5, end):
         print(i)
 
 

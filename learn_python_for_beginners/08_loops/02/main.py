@@ -1,5 +1,6 @@
 def print_numbers():
-    pass
+    for i in range(200):
+        print(i)
 
 
 # Don't edit below this line
