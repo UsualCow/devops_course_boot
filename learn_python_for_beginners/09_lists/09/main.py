@@ -5,7 +5,7 @@ def get_item_counts(items):
 
     # don't touch above this line
 
-    for i in range(0, len(items)):
+    for i in range(len(items)):
 
         if items[i] == "Potion":
             potion_count += 1
