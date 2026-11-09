@@ -1,5 +1,3 @@
-This lesson's interactive features are locked, please upgrade to keep using them
-
 Counting the Items in a List
 Remember that we can iterate over all the elements in a list using a loop. For example, the following code will print each item in the sports list.
 
