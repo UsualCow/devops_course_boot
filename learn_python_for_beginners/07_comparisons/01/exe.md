@@ -28,3 +28,5 @@ Click to hide video
 
 Assignment
 Complete the player_1_wins function. It should return True if player 1 has a higher score, and False otherwise.
+
+test
