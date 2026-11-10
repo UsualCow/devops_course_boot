@@ -1,2 +1,2 @@
 def get_even_and_odd_teams(players):
-    pass
+    return players[::2], players[1::2]

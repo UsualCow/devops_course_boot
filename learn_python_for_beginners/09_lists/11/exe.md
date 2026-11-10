@@ -1,5 +1,3 @@
-This lesson's interactive features are locked, please upgrade to keep using them
-
 Find an Item in a List
 Practice the "no-index" or "no-range" syntax:
 

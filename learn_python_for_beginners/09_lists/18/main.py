@@ -1,2 +1,3 @@
 def trim_strongholds(strongholds):
-    pass
+    del strongholds[:1]
+    del strongholds[-2:]
