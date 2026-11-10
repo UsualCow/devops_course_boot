@@ -1,22 +1,19 @@
 def filter_messages(messages):
-    good_words = []
     dang_counters = []
     new_messages = []
 
-    for i in range(len(messages)):
-        message = messages[i].split()
-        dang_counters.append(0)
-        for j in range(len(message)):
-            if message[j] != "dang" and message[j] != "Dang":
-                good_words.append(message[j])
-            else:
-                dang_counters[i] += 1
-        new_messages.append(" ".join(good_words))
+    for message in messages:
         good_words = []
+        words = message.split()
+        dang_counter = 0
+        for word in words:
+            if word in ("dang", "Dang"):
+                good_words.append(word)
+            else:
+                dang_counter += 1
+        new_messages.append(" ".join(good_words))
+        dang_counters.append(dang_counter)
     return new_messages, dang_counters
-
-
-
 
 
 def main():
