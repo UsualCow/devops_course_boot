@@ -5,4 +5,4 @@ def get_player_record(player_id):
         return {"name": "Dorgoth", "level": 300}
     if player_id == 3:
         return {"name": "Saruman", "level": 4000}
-    pass
+    raise Exception("player id not found")
